@@ -1,0 +1,100 @@
+/* ==========================================================================
+   RESET & FOUNDATIONAL BASE — WARM EDITORIAL CANVAS
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-canvas-subtle);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9D2C9;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--bg-canvas-subtle);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BFB5A8;
+}
+
+/* Tabular Numerals for Numerical Precision */
+.tabular-nums,
+.num-metric,
+.amount,
+.currency,
+.awb-tag,
+.sla-val,
+.date-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: -0.02em;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  line-height: 1.15;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--color-cobalt);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-cobalt-dark);
+}
+
+img, svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Selection Highlight */
+::selection {
+  background-color: rgba(59, 75, 247, 0.15);
+  color: var(--color-cobalt);
+}

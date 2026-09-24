@@ -1,0 +1,130 @@
+/* ==========================================================================
+   ECOMIQ — DESIGN SYSTEM TOKENS (PREMIUM COLORFUL COMMERCE TECHNOLOGY)
+   Inspiration: High-End Product Showcase & Modern Commerce Operating System
+   Foundation: Warm Soft Cream + Electric Cobalt + Vibrant Violet + Coral + Mint
+   ========================================================================== */
+
+:root {
+  /* Warm / Cream Canvas Foundation */
+  --bg-canvas: #FAF8F5;
+  --bg-canvas-subtle: #F4EFEA;
+  --bg-canvas-warm: #FFFDF9;
+  --bg-surface: #FFFFFF;
+  --bg-surface-cream: #FAF7F2;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-surface-high: #F6F3ED;
+
+  /* Contrast Dark Sections (for command center & finance immersion) */
+  --bg-dark-section: #0B0F19;
+  --bg-dark-surface: #121826;
+  --bg-dark-surface-elevated: #1A2338;
+  --bg-dark-border: rgba(255, 255, 255, 0.08);
+
+  /* Borders (Low-contrast, warm, ultra-clean) */
+  --border-subtle: rgba(15, 23, 42, 0.06);
+  --border-light: rgba(15, 23, 42, 0.09);
+  --border-default: rgba(15, 23, 42, 0.12);
+  --border-strong: rgba(15, 23, 42, 0.2);
+
+  /* Primary Brand Signature — Electric Cobalt */
+  --color-cobalt: #3B4BF7;
+  --color-cobalt-dark: #2232D4;
+  --color-cobalt-light: #EEF2FF;
+  --color-cobalt-border: rgba(59, 75, 247, 0.25);
+  --color-cobalt-glow: 0 16px 36px -6px rgba(59, 75, 247, 0.28);
+
+  /* Category Hierarchy Accents */
+  /* 1. Revenue — Coral & Warm Orange */
+  --color-coral: #FF5B37;
+  --color-coral-dark: #E03E19;
+  --color-coral-light: #FFF2EF;
+  --color-coral-border: rgba(255, 91, 55, 0.25);
+  --color-orange: #FF8A3D;
+  --gradient-revenue: linear-gradient(135deg, #FF5B37 0%, #FF8A3D 100%);
+  --shadow-coral-glow: 0 16px 36px -6px rgba(255, 91, 55, 0.25);
+
+  /* 2. Operations — Electric Cobalt & Sky */
+  --color-ops: #3B4BF7;
+  --color-ops-light: #EEF2FF;
+  --color-ops-cyan: #00BFD6;
+  --gradient-ops: linear-gradient(135deg, #3B4BF7 0%, #00BFD6 100%);
+
+  /* 3. Finance — Mint & Pure Emerald */
+  --color-mint: #05D686;
+  --color-mint-dark: #04A869;
+  --color-mint-light: #EBFDF5;
+  --color-mint-border: rgba(5, 214, 134, 0.25);
+  --gradient-finance: linear-gradient(135deg, #05D686 0%, #00B4D8 100%);
+  --shadow-mint-glow: 0 16px 36px -6px rgba(5, 214, 134, 0.22);
+
+  /* 4. Marketing — Vibrant Violet & Soft Lavender */
+  --color-violet: #8C52FF;
+  --color-violet-dark: #6C35DE;
+  --color-violet-light: #F5EFFF;
+  --color-violet-border: rgba(140, 82, 255, 0.25);
+  --color-lavender: #E0D4FC;
+  --gradient-marketing: linear-gradient(135deg, #8C52FF 0%, #B388FF 100%);
+  --shadow-violet-glow: 0 16px 36px -6px rgba(140, 82, 255, 0.25);
+
+  /* 5. AI Intelligence — Electric Violet / Warm Amber Burst */
+  --color-ai-purple: #7C3AED;
+  --color-ai-amber: #F59E0B;
+  --gradient-ai: linear-gradient(135deg, #7C3AED 0%, #EC4899 50%, #F59E0B 100%);
+  --gradient-ai-subtle: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, rgba(245, 158, 11, 0.08) 100%);
+
+  /* Semantic State Colors */
+  --color-success: #05D686;
+  --color-success-bg: #EBFDF5;
+  --color-warning: #F59E0B;
+  --color-warning-bg: #FEF3C7;
+  --color-danger: #EF4444;
+  --color-danger-bg: #FEE2E2;
+
+  /* Typography / Text Inks */
+  --text-primary: #0F172A; /* Deep Slate Ink */
+  --text-secondary: #475569;
+  --text-tertiary: #64748B;
+  --text-muted: #94A3B8;
+  --text-inverse: #FFFFFF;
+
+  /* Fonts */
+  --font-display: 'Space Grotesk', 'Sora', -apple-system, sans-serif;
+  --font-ui: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Multi-Layered Shadows (Agency Grade Soft Elevation) */
+  --shadow-sm: 0 2px 6px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 16px 40px -8px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.05);
+  --shadow-xl: 0 25px 60px -12px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(15, 23, 42, 0.06);
+  --shadow-product-window: 0 30px 80px -15px rgba(15, 23, 42, 0.14), 0 0 0 1px rgba(15, 23, 42, 0.08);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-spring: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-bounce: 500ms cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
